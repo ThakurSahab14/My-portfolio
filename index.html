@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Pratap Singh | Solutions Engineer & Automation Support</title>
+    <meta name="description"
+        content="Portfolio of Gaurav Pratap Singh, Senior Solutions Engineer & Automation Support Specialist at BrowserStack. Explore my automation tooling, support engineering work, and technical skills.">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gaurav Pratap Singh | Solutions Engineer & Automation Support">
+    <meta property="og:description"
+        content="Senior Solutions Engineer & Automation Support Specialist at BrowserStack. Explore my projects, work experience, and technical skills.">
+    <meta property="og:image" content="portfolio_assests/GJ_Favicon.jpg">
+
+    <link rel="icon" href="portfolio_assests/GJ_Favicon.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+    <script type="module" src="./speed-insights.js"></script>
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+    <!-- ── Floating Navbar ── -->
+    <nav class="site-nav" id="siteNav">
+        <div class="nav-pill">
+            <span class="nav-indicator" id="navIndicator"></span>
+            <a href="#home" class="nav-link active" data-section="home">
+                <i class="fa-solid fa-house nav-icon"></i>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#about" class="nav-link" data-section="about">
+                <i class="fa-solid fa-user nav-icon"></i>
+                <span class="nav-label">About</span>
+            </a>
+            <a href="#experience" class="nav-link" data-section="experience">
+                <i class="fa-solid fa-briefcase nav-icon"></i>
+                <span class="nav-label">Experience</span>
+            </a>
+            <a href="#projects" class="nav-link" data-section="projects">
+                <i class="fa-solid fa-code nav-icon"></i>
+                <span class="nav-label">Projects</span>
+            </a>
+            <a href="#skills" class="nav-link" data-section="skills">
+                <i class="fa-solid fa-layer-group nav-icon"></i>
+                <span class="nav-label">Skills</span>
+            </a>
+            <a href="#achievements" class="nav-link" data-section="achievements">
+                <i class="fa-solid fa-award nav-icon"></i>
+                <span class="nav-label">Awards</span>
+            </a>
+            <a href="#profiles" class="nav-link" data-section="profiles">
+                <i class="fa-solid fa-globe nav-icon"></i>
+                <span class="nav-label">Profiles</span>
+            </a>
+            <a href="#contact" class="nav-link" data-section="contact">
+                <i class="fa-solid fa-envelope nav-icon"></i>
+                <span class="nav-label">Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- ── Preloader: Boot Sequence ── -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-particles" id="preloaderParticles"></div>
+
+        <!-- Branding -->
+        <div class="preloader-brand">
+            <div class="preloader-brand-main">
+                <span class="preloader-brand-name">Gaurav</span><span class="preloader-brand-accent">Singh</span>
+            </div>
+            <div class="preloader-brand-subtitle">
+                <span class="subtitle-line"></span>
+                <span>Personal Portfolio</span>
+                <span class="subtitle-line"></span>
+            </div>
+        </div>
+
+        <!-- Sleek Loading Bar -->
+        <div class="preloader-sleek-track">
+            <div class="preloader-sleek-fill" id="preloaderSleekFill"></div>
+        </div>
+
+        <!-- Cycling Tagline -->
+        <div class="preloader-tagline">
+            <span class="tagline-word" style="--w:0">Automate.</span>
+            <span class="tagline-word" style="--w:1">Debug.</span>
+            <span class="tagline-word" style="--w:2">Support.</span>
+            <span class="tagline-word" style="--w:3">Deliver.</span>
+        </div>
+    </div>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div class="background-container">
+        <canvas id="bg-canvas"></canvas>
+
+    </div>
+
+    <main class="hero" id="home">
+
+        <div class="floating-icon icon-top-left">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="floating-icon icon-top-right">
+            <i class="fa-solid fa-brain"></i>
+        </div>
+        <div class="floating-icon icon-bottom-left">
+            <i class="fa-solid fa-trophy"></i>
+        </div>
+        <div class="floating-icon icon-bottom-right">
+            <i class="fa-regular fa-lightbulb"></i>
+        </div>
+
+        <div class="content-wrapper">
+            <h2 class="sub-title">Woah! You Landed on the Portfolio Website of The</h2>
+            <br>
+            <br>
+            <h1 class="main-title">
+                <span class="purple-text" id="typing-text"></span>
+            </h1>
+            <br>
+            <br>
+            <h5 class="year">Gaurav Pratap Singh | Senior Solutions Engineer @ BrowserStack</h5>
+            <br>
+            <div class="hero-buttons">
+                <a href="https://www.linkedin.com/in/gaurav142001/" target="_blank" class="btn-resume">Let's
+                    Connect</a>
+                <a href="javascript:void(0)" id="openResumeBtn" class="btn-resume">View Resume</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="about-section" id="about">
+        <div class="glass-card scroll-reveal">
+            <h2>About Me - <span class="purple-text">Behind The Ticket!</span></h2>
+            <p>
+                I'm a Senior Solutions Engineer with 2+ years at BrowserStack, sitting at the intersection of
+                <strong>technical support</strong> and <strong>automation engineering</strong>. I help enterprise
+                customers troubleshoot and unblock complex Selenium, Playwright, and Appium pipelines, while also
+                building the internal tooling — AI-powered ticket automation, shift-aware notifiers — that makes
+                support teams faster.
+
+                <br><br>I enjoy root-causing failures across distributed systems as much as I enjoy scripting the fix
+                that prevents them from recurring. Outside of support engineering, I build end-to-end automation
+                systems for fun: trading bots, YouTube content pipelines, and full-stack web apps — all driven by the
+                same instinct to turn a manual, repetitive process into something that just runs on its own.
+            </p>
+        </div>
+    </section>
+
+    <br>
+
+    <section class="projects-section" id="experience">
+        <h2 class="section-title">Work Experience - <span class="purple-text">Professional Journey!</span></h2>
+        <br>
+        <div class="timeline">
+            <div class="timeline-line">
+                <div class="timeline-progress"></div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-number">01</div>
+                <div class="timeline-content">
+                    <div class="project-tag">BrowserStack</div>
+                    <div class="company-logo-badge">BS</div>
+                    <h3>Senior Solutions Engineer (L3)</h3>
+                    <p style="text-align: left; padding: 10px 0;">
+                        • Automation SME for enterprise customers across Selenium, Playwright, Appium, WebdriverIO &
+                        Cypress, providing architectural guidance to unblock regression and CI/CD
+                        pipelines.<br><br>
+                        • Lead cross-functional collaboration with Engineering & Product to diagnose platform-level
+                        failures and drive quality improvements through feedback loops.<br><br>
+                        • Spearheaded an AI-based initiative using the Gemini API to automate ticket-field population —
+                        cutting manual data entry by ~40% and improving tagging consistency.<br><br>
+                        • Designed a Freshdesk ticket notifier integrated with agent shift rosters, reducing average
+                        response time and manual coordination overhead.<br><br>
+                        • Mentored new hires and consistently delivered top-tier CSAT while managing SLAs across
+                        global enterprise customers.
+                    </p>
+                </div>
+                <div class="timeline-date">OCT 2025 – PRESENT</div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-number">02</div>
+                <div class="timeline-content">
+                    <div class="project-tag">BrowserStack</div>
+                    <div class="company-logo-badge">BS</div>
+                    <h3>Solutions Engineer (L2)</h3>
+                    <p style="text-align: left; padding: 10px 0;">
+                        • Managed complex customer issues end-to-end — diagnosis, reproduction across diverse
+                        OS/browser/device environments, root-cause analysis, and resolution — minimizing impact on
+                        customer CI/CD workflows.<br><br>
+                        • Reproduced and analyzed failures across distributed systems involving Selenium Grid,
+                        Appium, Playwright, and REST APIs, driving tooling improvements for faster investigation.
+                        <br><br>
+                        • Debugged customer automation scripts live on calls using Python, Java, JavaScript &
+                        Node.js, pinpointing locator, network, capability, and framework-version issues.<br><br>
+                        • Authored internal runbooks and KB articles covering failure signatures, reducing repeat
+                        escalations and improving team resolution speed.
+                    </p>
+                </div>
+                <div class="timeline-date">JAN 2024 – SEP 2025</div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">Projects Showcase - <span class="purple-text">What I've Built!</span></h2>
+        <br>
+        <div class="experience-grid">
+
+            <div class="experience-card">
+                <div class="experience-date">2025-2026</div>
+                <div class="project-tag" style="display: inline-block; width: max-content;">AI Support Tooling</div>
+                <h3>Gemini-Powered Ticket Automation</h3>
+                <p>
+                    Built an internal tool using the Gemini API to auto-populate ticket fields and tags on BrowserStack's
+                    support pipeline — cutting manual data entry by ~40% and improving tagging consistency across the
+                    team.
+                </p>
+                <div class="project-links-wrapper">
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> Internal Tool</a>
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-brands fa-github"></i> Private Repo</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-date">2024-2025</div>
+                <div class="project-tag" style="display: inline-block; width: max-content;">Support Automation</div>
+                <h3>Freshdesk Shift-Aware Notifier</h3>
+                <p>
+                    Designed and deployed a Freshdesk ticket notifier integrated with agent shift rosters, significantly
+                    reducing average response time and manual coordination overhead across rotational shifts.
+                </p>
+                <div class="project-links-wrapper">
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> Internal Tool</a>
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-brands fa-github"></i> Private Repo</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-date">2026</div>
+                <div class="project-tag" style="display: inline-block; width: max-content;">Full-Stack Web App</div>
+                <h3>BrowserStack SmashKart Tournament</h3>
+                <p>
+                    A full-stack tournament management platform built with Node.js, Express, Socket.io, React, Vite &
+                    Tailwind — featuring a cinematic Three.js intro, a 3D kart hero section, JWT auth, and
+                    canvas-generated certificates.
+                </p>
+                <div class="project-links-wrapper">
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> View Live</a>
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-date">Ongoing</div>
+                <div class="project-tag" style="display: inline-block; width: max-content;">Trading Automation</div>
+                <h3>VCP Swing-Trading Pipeline</h3>
+                <p>
+                    An automated swing-trading system in Python using the dhanhq library & TradingView webhooks,
+                    built around VCP/Minervini methodology with ROC-based regime filtering and EMA trailing exits.
+                </p>
+                <div class="project-links-wrapper">
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-regular fa-eye"></i> Personal Project</a>
+                    <a href="javascript:void(0)" class="project-btn primary-btn inactive-btn"><i
+                            class="fa-brands fa-github"></i> Private Repo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <br>
+
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">Technical Skills - <span class="purple-text">Core Expertise!</span></h2>
+
+        <div class="skill-filters" id="skillFilters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="languages">Languages</button>
+            <button class="filter-btn" data-filter="automation">Automation</button>
+            <button class="filter-btn" data-filter="backend">Web & APIs</button>
+            <button class="filter-btn" data-filter="databases">Databases</button>
+            <button class="filter-btn" data-filter="tools">Tools</button>
+        </div>
+
+        <div class="skill-grid" id="skillGrid">
+
+            <div class="skill-card" data-category="languages">
+                <i class="fa-brands fa-python" style="color: #3776AB;"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card" data-category="languages">
+                <i class="devicon-java-plain colored"></i>
+                <span>Java</span>
+            </div>
+            <div class="skill-card" data-category="languages">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-card" data-category="languages">
+                <i class="devicon-cplusplus-plain colored"></i>
+                <span>C++</span>
+            </div>
+            <div class="skill-card" data-category="languages">
+                <i class="fa-solid fa-database" style="color: #f29111;"></i>
+                <span>SQL</span>
+            </div>
+            <div class="skill-card" data-category="automation">
+                <i class="devicon-selenium-original colored"></i>
+                <span>Selenium</span>
+            </div>
+            <div class="skill-card" data-category="automation">
+                <i class="fa-solid fa-masks-theater" style="color: #2EAD33;"></i>
+                <span>Playwright</span>
+            </div>
+            <div class="skill-card" data-category="automation">
+                <i class="fa-solid fa-mobile-screen-button" style="color: #662D91;"></i>
+                <span>Appium</span>
+            </div>
+            <div class="skill-card" data-category="automation">
+                <i class="fa-solid fa-gauge-high" style="color: #EA5906;"></i>
+                <span>WebdriverIO</span>
+            </div>
+            <div class="skill-card" data-category="automation">
+                <i class="devicon-cypressio-plain colored"></i>
+                <span>Cypress</span>
+            </div>
+            <div class="skill-card" data-category="backend">
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="skill-card" data-category="backend">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card" data-category="backend">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-card" data-category="backend">
+                <i class="fa-solid fa-network-wired" style="color: #a855f7;"></i>
+                <span>REST APIs</span>
+            </div>
+            <div class="skill-card" data-category="databases">
+                <i class="devicon-mysql-plain colored"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill-card" data-category="databases">
+                <i class="devicon-mongodb-plain colored"></i>
+                <span>MongoDB</span>
+            </div>
+            <div class="skill-card" data-category="tools">
+                <i class="devicon-git-plain colored"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-card" data-category="tools">
+                <i class="devicon-github-original"></i>
+                <span>GitHub</span>
+            </div>
+            <div class="skill-card" data-category="tools">
+                <i class="devicon-postman-plain colored"></i>
+                <span>Postman</span>
+            </div>
+            <div class="skill-card" data-category="tools">
+                <i class="devicon-jenkins-line colored"></i>
+                <span>Jenkins</span>
+            </div>
+            <div class="skill-card" data-category="tools">
+                <i class="fa-solid fa-headset" style="color: #22c55e;"></i>
+                <span>Freshdesk</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="certifications-section" id="achievements">
+        <h2 class="section-title">Achievements - <span class="purple-text">Milestones!</span></h2>
+
+        <div class="cert-grid">
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Smart India Hackathon 2022 – Finalist</h3>
+                    <p>Reached the finals of Smart India Hackathon 2022, hosted by the Ministry of Human Resource
+                        Development (M.H.R.D.) and A.I.C.T.E.</p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-ranking-star"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>GeeksforGeeks Jobathon 8 – Rank 89</h3>
+                    <p>Ranked 89th globally among 10,000+ participants in GeeksForGeeks Jobathon 8, 2022.</p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Google Hashcode 2022 – Rank 3954</h3>
+                    <p>Placed 3954th globally in Google Hashcode 2022, a team-based competitive programming
+                        contest.</p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>800+ Problems Solved</h3>
+                    <p>Solved 800+ programming problems across LeetCode, GeeksforGeeks, and CodeChef (rating 1801,
+                        4★, global rank 6810).</p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>~40% Cut in Manual Ticket Effort</h3>
+                    <p>Drove an AI-based initiative at BrowserStack using the Gemini API to automate ticket-field
+                        population, reducing manual data entry by an estimated 40%.</p>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="cert-img-wrapper icon-wrapper">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="cert-info">
+                    <h3>Top-Tier CSAT, Global Enterprise SLAs</h3>
+                    <p>Consistently achieved top-tier CSAT scores while managing SLA commitments across global
+                        enterprise customers in rotational shifts.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <br>
+
+    <section class="profiles-section" id="profiles">
+        <h2 class="section-title">Web Presence - <span class="purple-text">Let's Connect!</span></h2>
+        <div class="profile-header">
+            <div class="profile-img-main">
+                <img src="portfolio_assests/Professional_Picture.jpg" alt="Gaurav Pratap Singh">
+            </div>
+            <div class="profile-text">
+                <p class="purple-text">Gaurav Pratap Singh</p>
+            </div>
+        </div>
+
+        <div class="profiles-grid">
+
+            <a href="https://www.linkedin.com/in/gaurav142001/" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>LinkedIn</h3>
+                    <p>Connect</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/ThakurSahab14" target="_blank" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-brands fa-github" style="color: #fff;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>GitHub</h3>
+                    <p>Commit</p>
+                </div>
+            </a>
+
+            <a href="mailto:gaurav14jadaun@gmail.com" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-solid fa-envelope" style="color: #a855f7;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>Email</h3>
+                    <p>Reach Out</p>
+                </div>
+            </a>
+
+            <a href="tel:+919761321308" class="profile-card">
+                <div class="profile-icon">
+                    <i class="fa-solid fa-phone" style="color: #2ec866;"></i>
+                </div>
+                <div class="profile-info">
+                    <h3>Phone</h3>
+                    <p>Call</p>
+                </div>
+            </a>
+        </div>
+        <br>
+        <p class="profile-note">You can explore further by clicking on any of the profile cards above!</p>
+    </section>
+
+    <br>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get In Touch - <span class="purple-text">Ask Me Anything!</span></h2>
+            <h4 class="contact-note">Hiring for a Senior SDET, QA Automation, or Solutions Engineering role?<br> I'm
+                always open to new opportunities and interesting conversations.</h4>
+            <div class="contact-card">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" " autocomplete="off">
+                        <label for="name">Name</label>
+                        <i class="fa-solid fa-user input-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" " autocomplete="off">
+                        <label for="email">Email</label>
+                        <i class="fa-solid fa-envelope input-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                        <i class="fa-solid fa-comment input-icon"></i>
+                    </div>
+                    <button type="submit" class="btn-resume btn-submit">
+                        <span>Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2 class="footer-logo">Gaurav<span class="purple-text">Singh</span></h2>
+                <p class="footer-tagline">Solutions Engineering Meets Automation Support!</p>
+            </div>
+
+            <ul class="footer-nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/gaurav142001/" target="_blank" class="social-link linkedin"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ThakurSahab14" target="_blank" class="social-link github"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:gaurav14jadaun@gmail.com" target="_blank" class="social-link email"><i
+                        class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gaurav Pratap Singh. All rights reserved.</p>
+            <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <div id="resumeModal" class="resume-modal">
+        <div class="resume-modal-content glass-card">
+            <span class="close-modal" id="closeResumeBtn">&times;</span>
+            <h2 style="margin-bottom: 20px;">My Resume - <span class="purple-text">On Paper!</span></h2>
+            <div class="resume-iframe-container">
+                <iframe src="portfolio_assests/Gaurav_Resume.pdf" width="100%" height="100%"
+                    style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="3d_background.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
