@@ -7,6 +7,10 @@
     inherits: false;
 }
 
+html {
+    font-size: 85%;
+}
+
 :root {
     --bg-dark: #0b0b0b;
     --accent-purple: #a855f7;
@@ -574,6 +578,42 @@ body {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.competencies-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 50px 0 20px;
+    opacity: 0.9;
+}
+
+.competency-chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.competency-chip {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgba(168, 85, 247, 0.08);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    color: #d8b4fe;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.competency-chip:hover {
+    background: rgba(168, 85, 247, 0.18);
+    border-color: rgba(168, 85, 247, 0.5);
+    transform: translateY(-2px);
 }
 
 .skill-card {
@@ -2401,10 +2441,10 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    padding: 8px 14px;
+    padding: 8px 12px;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 500;
     letter-spacing: 0.3px;
     border-radius: 50px;
@@ -2462,14 +2502,14 @@ body {
 
     .nav-link {
         flex-direction: column;
-        padding: 6px 8px;
+        padding: 6px 6px;
         gap: 3px;
         font-size: 0;
     }
 
     .nav-link .nav-icon {
         display: block;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .nav-link .nav-label {
