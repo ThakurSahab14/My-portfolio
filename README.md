@@ -144,45 +144,6 @@ Then open `http://localhost:3000`.
 
 ---
 
-## Author
-
-**Gaurav Pratap Singh**  
-Senior Automation Support Engineer (L3) @ BrowserStack | Selenium · Playwright · Appium
-
-- LinkedIn: [@gaurav142001](https://www.linkedin.com/in/gaurav142001/)
-- GitHub: [@ThakurSahab14](https://github.com/ThakurSahab14)
-- Email: [gaurav14jadaun@gmail.com](mailto:gaurav14jadaun@gmail.com)
-- Phone: +91-9761321308
-
----
-
-## Notes for Gaurav (things to double-check / swap in later)
-
-- **Company logos** in the Experience timeline use `Company_Logo_Placeholder.png` — a generic sample. Swap in the
-  real BrowserStack / Scaler logos whenever you have them (same filename, or update the `src` in `index.html`).
-- **Certificate thumbnails** in the Certifications section use one shared `Certificate_Placeholder.jpg` sample image.
-  The **"View Credential" links are real** (your Drive/HackerRank URLs) — only the thumbnail image is a placeholder.
-  Swap in actual screenshots of each certificate for a more polished look.
-- **SharkTank** repo's default `main` branch has almost no code — the real project lives on the `gaurav` branch, so
-  the GitHub button links directly to `github.com/ThakurSahab14/SharkTank-/tree/gaurav`. Consider setting `gaurav`
-  as the default branch on GitHub so visitors landing on the repo see the real code first.
-- **WeatherApp** live link (`thakursahab14.github.io/WeatherApp`) and **Interactive Quiz** live link (a Vercel
-  preview URL found in its README) could not be verified from this sandbox (GitHub Pages / Vercel preview domains
-  aren't reachable here) — please click through both yourself before publishing; if either is dead, either fix the
-  deployment or let me know and I'll switch that button back to disabled.
-- **Project dates** for the 7 GitHub repos are approximate, based on each repo's last commit date — adjust if you
-  remember the actual timelines.
-
-## Acknowledgments
-
-- **Three.js Team** - 3D graphics library
-- **GreenSock (GSAP)** - Animation framework
-- **Resend** - Email backend infrastructure
-- **Font Awesome & Devicon** - Icon libraries
-- **Aakarsh Bibhaw** - Original [DevHQ Portfolio](https://github.com/arshbibhaw/DevHQ-Personal-Portfolio-Website) template this project is adapted from
-
----
-
 <div align="center">
   
   **Star this repo if you found the 3D effects impressive!**
